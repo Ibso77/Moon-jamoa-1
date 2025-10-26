@@ -22,3 +22,54 @@
   font-weight: 400;
   src: url('../fonts/bellefair-v15-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
+
+body{
+  background-image: url(/images/body-bg.svg);
+  background-repeat: no-repeat;
+  background-size:cover ;
+  background-position: center;
+  
+}
+.containers{
+  max-width: 1200px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+.site-header{
+  background-image: url(/images/Rectangle.png);
+  background-repeat: no-repeat;
+  background-size: 830px 96px;
+  background-position: right bottom;
+}
+.navbar-link{
+font-family: "Barlow Condensed";
+font-weight: 400;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 2.7px;
+}
+.hero-text{
+  font-family: "Barlow Condensed";
+font-weight: 400;
+font-size: 28px;
+line-height: 100%;
+letter-spacing: 4.72px;
+
+}
+.hero-title{
+font-family: "Bellefair";
+font-weight: 400;
+font-size: 150px;
+line-height: 100%;
+letter-spacing: 0px;
+color: white;
+}
+.hero-subtext{
+  font-family: "Barlow";
+font-weight: 400;
+font-size: 18px;
+color: white;
+line-height: 32px;
+letter-spacing: 0px;
+
+}
